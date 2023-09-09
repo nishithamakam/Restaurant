@@ -1,0 +1,265 @@
+
+        /* Custom styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa; 
+            margin:0;
+            padding: 0; 
+            position:hidden;
+           
+        }
+        
+        .container{
+            display: flex;
+        }
+        .navbar {
+            background-color: #ca092ab9; /* Violet color */
+        }
+        .navbar-brand {
+            color: #fff;
+            font-size: 20px;
+            font-weight:bolder;
+            font-family:Arial, Helvetica, sans-serif;
+            align-items:center;
+    
+        }
+        .navbar-nav .nav-link {
+            color: #fff;
+            margin-left: 59px; /* Increase space between navbar items */
+            
+        }
+        .section {
+            padding: 50px 0; /* Adjust the padding as needed */
+        }
+        .text-content{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        }
+        
+        .navbar-nav .nav-link:hover {
+            color: #bd0e1d; 
+            background-color: #fff; 
+            border-radius: 20px; /* Rounded border */
+            padding: 10px 15px; /* Adjust padding for spacing */
+        }
+        .dropdown-menu {
+            border-radius: 10px; /* Rounded corners for the dropdown */
+        }
+        .dropdown-item{
+            color:rgba(62, 62, 60, 0.291);
+        } 
+        .dropdown-item:hover {
+            background-color:#ca092ab9; 
+            border-radius: 10px;
+            color: white; /* Change text color on hover */
+        }
+        
+        .carousel {
+            position:static;
+            top: 0; 
+            left: 0;
+            width: 100%;
+            height: 100%;   
+            z-index: -1;/* Place behind other content */
+        }
+        .carousel-inner {
+            width: 100%;
+            height: 100%;
+        }
+        .carousel-item {
+            position: relative;
+            width: 100%;
+            height:100vh;
+             /* Use viewport height for full-screen effect */
+            background-size: cover;
+            background-position: center;
+            color:rgb(24, 21, 21); /* Text color on the carousel images */
+        }
+        
+        .carousel-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        #contactus{
+            background: #ca092ab9;
+            color: white;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+            font-size:20px;
+        }
+        .contact-container {
+            display: flex;
+            margin-top: 50px;
+            
+        }
+
+        .contact-details {
+            flex: 1;
+            padding: 0 20px;
+        }
+
+        .newsletter {
+            flex: 1;
+            padding: 0 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .newsletter input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .newsletter button {
+            padding: 10px 20px;
+            background-color: #474142;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .newsletter button:hover {
+            background-color: #eadfe0;
+            color:#bd0e1d   
+        }
+        .social-icon {
+            font-size: 35px;
+            margin-right: 10px;
+            color: #333; /* Adjust the color as needed */
+        }
+        .footer {
+                padding:10px 60px;
+                margin-left:350px;
+        }
+
+
+        /* Custom styles */
+
+.order-content{
+    margin-top:0;
+    justify-content: center;
+    align-items: center;
+}
+ 
+#orderCarousel  .carousel-text {
+
+    text-align: center;
+    top:30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 1.9rem;
+    
+}
+#orderCarousel  .carousel-card-text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    text-align: center;
+    font-size:1.2rem;
+   
+    
+}
+#orderCarousel .carousel-inner{
+    height: 20vh;
+}
+.order-button-container{
+       margin-left:330px;
+        
+}
+.location-input {
+    border: 2px solid #912424;
+    padding: 8px;
+    width: 40%;
+    border-radius: 5px;
+    
+}
+
+.locate-me-icon {
+    font-size: 1.5rem;
+    color: #ca092a;
+}
+
+.find-food-button {
+    background-color: #ca092a;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: ;
+   
+}
+
+.find-food-button:hover {
+    color:white;
+    background-color:#474142;
+}
+.form-control:hover{
+    border: 2px solid #912424;
+}
+.form-label{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+#tableimage{
+     padding-left:150px;
+}
+
+
+
+
+
+/* Menu Section */
+#menu {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+#menu h2 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#menu .carousel-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:-40px;
+    margin-top:-80px;
+}
+
+#menu .carousel-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+}
+.carousel-item .card {
+    width: 18rem;
+    border: none;
+    background-color: transparent;
+}
+
+.carousel-item .card-img-top {
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.carousel-item .card-img-top:hover {
+    transform: scale(1.05);
+}
+
+.carousel-item .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.carousel-item .card-text {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+}   
